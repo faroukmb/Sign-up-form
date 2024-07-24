@@ -1,0 +1,95 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap');
+* {
+    font-family: "Rubik", sans-serif;
+    box-sizing: border-box;
+}
+.container {
+    display: flex;
+    border-radius: 7px;
+    overflow: hidden;
+    background-color: rgb(249, 250, 251);
+}
+.sect1 {
+    height: 680px;
+    width: 800px;
+    background-image: url(logo/Dark\ Blue\ and\ Pink\ Futuristic\ Technology\ Background\ Instagram\ Story.png);
+    background-size: cover;
+}
+.tit {
+    text-align: center;
+    margin-top: 300px;
+}
+.tit img {
+    height: 300px;
+}
+.sect2 .fp {
+    text-align: left;
+    font-size: 1.2em;
+    margin-top: 20px;
+    margin-left: 30px;
+    font-weight: 600;
+}
+.sp {
+    margin-top: 50px;
+    text-align: left;
+    font-size: 1.2em;
+    margin-left: 30px;
+    font-weight: 600;
+}
+.myform {
+    display: flex;
+    flex-direction: column;
+}
+.inputs {
+    display: flex;
+    padding-left: 50px;
+}
+.part1 div,
+.part2 div {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 20px;
+}
+form input {
+    margin-right: 50px;
+    outline-color: rgb(47, 91, 215);
+    width: 300px;
+    height: 30px;
+    border-radius: 7px;
+}
+.myform {
+    background-color: #fff;
+    padding: 20px;
+    box-shadow: 0 4px 8px 0 rgba(17, 17, 20, 0.2);
+}
+form h2 {
+    margin-left: 50px;
+    font-weight: 500;
+}
+.submit button {
+    background-color: blueviolet;
+    border: none;
+    border-radius: 7px;
+    width: 150px;
+    height: 50px;
+    color: #fff;
+    margin-top: 30px;
+    margin-left: 30px;
+    cursor: pointer;
+}
+.submit button:hover {
+    background-color: rgb(71, 54, 102);
+}
+.submit p{
+    margin-left: 30px;
+}
+.submit span a {
+    text-decoration: none;
+    color: blueviolet;
+}
+.error {
+    display: none;
+    color: red;
+    font-size: 0.9em;
+}
+

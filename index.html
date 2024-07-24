@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>odin form</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="sect1">
+           <div class="tit">
+            <img src="logo/[removal.ai]_2f6b7821-e84c-482a-b1ad-55d1bec196fb_Black Minimal Electronics Logo (1).png" alt="" height="300px">
+           </div>
+        </div>
+        <div class="sect2">
+             <p class="fp">E-Teck Electronics provides top-tier electronic solutions, including consumer electronics, home automation, and custom industrial systems, all designed to enhance everyday life and streamline business operations. <br>Sign up now to get Started</p>
+             <p class="sp">you know you want to</p>
+             
+                
+                <form action="" id="form" novalidate>
+                  <div class="myform">
+                     <h2>Let's do this!</h2>
+                     <div class="inputs">
+                        <div class="part1">
+                         <div id="supnom">
+                      <label for="name">FIRST NAME</label>
+                      <input type="text" id="name" autocomplete="off">
+                      <span class="error" id="e1">First name is required!</span>
+                      </div>
+                      <div id="maili">
+                         <label for="email">EMAIL</label>
+                         <input type="email" id="email" autocomplete="off">
+                         <span class="error" id="e2">Valid email required!</span>
+                      </div>
+                      <div id="passi">
+                        <label for="pass">PASSWORD</label>
+                        <input type="password" id="pass">
+                        <span class="error" id="e3">Password is required!</span>
+                     </div>
+                   </div>
+                   <div class="part2">
+                    <div id="sn">
+                 <label for="lname">LAST NAME</label>
+                 <input type="text" id="lname" autocomplete="off">
+                 <span class="error" id="e4">Last name is required!</span>
+                 </div>
+                 <div id="num">
+                    <label for="number">PHONE NUMBER</label>
+                    <input type="number" id="number">
+                    <span class="error" id="e5"></span>
+                 </div>
+                 <div id="supcpass">
+                   <label for="cpass">CONFIRM PASSWORD</label>
+                   <input type="password" id="cpass" >
+                   <span class="error" id="e6"></span>
+                  </div>
+               </div>
+            </div>
+         </div>
+         <div class="submit">
+            <button type="submit" class="submit" id="btn">Create Account</button>
+            <p>Already have an account?<span><a href="">Log in</a></span></p>
+         </div>
+            
+       
+      </form>
+   </div>
+</div>
+<script src="script.js"></script>
+</body>
+</html>
